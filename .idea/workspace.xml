@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c1a74a5-205b-4d83-98e3-d2da173bcb58" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/tq.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/json1/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/json1/icon.json" />
-      <change beforePath="$PROJECT_DIR$/make_url_into_img/json_processing.py" afterPath="$PROJECT_DIR$/make_url_into_img/json_processing.py" />
-      <change beforePath="$PROJECT_DIR$/make_url_into_img/make_result_into_img.py" afterPath="$PROJECT_DIR$/make_url_into_img/make_result_into_img.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/update_pod.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="make_result_into_img.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="make_result_into_img.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/make_url_into_img/make_result_into_img.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="833">
@@ -32,11 +26,47 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="exchage_entId.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exchage_entId.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-142">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1571624762917" expanded="true" signature="1112:1139" ph="select * fro... missing_value" />
+                <marker date="1571624762917" expanded="true" signature="1296:1319" ph="update missing_value... " />
+                <marker date="1571624762917" expanded="true" signature="1501:1525" ph="update missing_value... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project_09.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_09.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_pod.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/update_pod.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="json_processing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/make_url_into_img/json_processing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="64" lean-forward="false" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+            <state relative-caret-position="225">
+              <caret line="15" column="104" lean-forward="true" selection-start-line="15" selection-start-column="104" selection-end-line="15" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -119,11 +149,6 @@
               <item name="BYSJ_Git" type="b2602c69:ProjectViewProjectNode" />
               <item name="BYSJ_Git" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BYSJ_Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BYSJ_Git" type="462c0819:PsiDirectoryNode" />
-              <item name="make_url_into_img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -180,6 +205,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -224,10 +250,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exchage_entId.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1571624762917" expanded="true" signature="1112:1139" ph="select * fro... missing_value" />
+            <marker date="1571624762917" expanded="true" signature="1296:1319" ph="update missing_value... " />
+            <marker date="1571624762917" expanded="true" signature="1501:1525" ph="update missing_value... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/make_url_into_img/json_processing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="64" lean-forward="false" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+        <state relative-caret-position="225">
+          <caret line="15" column="104" lean-forward="true" selection-start-line="15" selection-start-column="104" selection-end-line="15" selection-end-column="104" />
           <folding />
         </state>
       </provider>
@@ -239,6 +288,24 @@
           <folding>
             <element signature="e#64#86#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update_pod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
