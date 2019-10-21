@@ -1,3 +1,8 @@
+'''
+开发者：赵吉宁
+脚本功能：将json文件中的icon、图片地址拼接下载到本地文件夹
+时间：2019-10-18
+'''
 import json
 
 
@@ -8,7 +13,7 @@ assets = []
 class Json_Process():
 
     def __init__(self):
-        self.json_file = json.load(open('/Users/tq/Desktop/BYSJ/json1/icon.json'))  # json 配置文件路径（1）
+        self.json_file = json.load(open('/Users/tq/Desktop/BYSJ_Git/json1/icon.json'))  # json 配置文件路径（1）
 
     def first_key(self):
 
@@ -43,8 +48,3 @@ class Json_Process():
                         icon_name = str(icon_name) + "_another"
                     icon.append({'title': icon_name, 'icon': js.get(j)})
                     # print(js.get('title'), j + ":", js.get(j))
-
-
-
-
-# Json_Process().first_key()

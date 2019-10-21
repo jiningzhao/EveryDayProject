@@ -1,0 +1,577 @@
+{
+    "constant": {
+      "urlPrefix": {
+        "assets": "https://growth.newbanker.cn/General_APP_template/General_App_template_v3.0.3"
+      }
+    },
+    "screen": {
+      "home": {
+        "components": [
+          {
+            "name": "SearchBar",
+            "config": {
+              "placeholder": "服务/活动/资讯/客户/直播/投教/课程"
+            }
+          },
+          {
+            "name": "DiamondZone",
+            "config": {
+              "template": "template3",
+              "activityContent": {
+                "background": "",
+                "icons": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              "apps": [
+                {
+                  "title": "智能名片",
+                  "icon": "/home/DiamondZone/apps/apps_card.png",
+                  "action": "action://card/detail"
+                },
+                {
+                  "title": "精品海报",
+                  "icon": "/home/DiamondZone/apps/apps_poster.png",
+                  "action": "action://poster/list"
+                },
+                {
+                  "title": "转发助手",
+                  "icon": "/home/DiamondZone/apps/apps_transmit.png",
+                  "action": "action://transmit/detail"
+                },
+                {
+                  "title": "营销线索",
+                  "icon": "/home/DiamondZone/apps/apps_market.png",
+                  "action": "action://market/list"
+                },
+                {
+                  "title": "财商Club",
+                  "icon": "/home/DiamondZone/apps/apps_education.png",
+                  "action": "action://education/list"
+                },
+                {
+                  "title": "活动",
+                  "icon": "/home/DiamondZone/apps/apps_activity.png",
+                  "action": "action://activity/list"
+                },
+                {
+                  "title": "财经资讯",
+                  "icon": "/home/DiamondZone/apps/apps_content.png",
+                  "action": "action://content/list"
+                },
+                {
+                  "title": "全部应用",
+                  "icon": "/home/DiamondZone/apps/apps_applications.png",
+                  "action": "action://applications/tab"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Carousel",
+            "config": {
+              "template": "template1"
+            }
+          },
+          {
+            "name": "Headline",
+            "config": {
+              "title": {
+                "mode": "cover",
+                "text": "",
+                "cover": "/home/Headline/Headline_cover.png",
+                "id": "",
+                "fontColor": "",
+                "fontSize": "",
+                "fontWeight": ""
+              }
+            }
+          },
+          {
+            "name": "Cube",
+            "config": {
+              "title": {
+                "mode": "text",
+                "text": "",
+                "cover": "",
+                "id": "",
+                "fontColor": "",
+                "fontSize": "",
+                "fontWeight": ""
+              },
+              "template": "template1",
+              "covers": [
+                {
+                  "cover": "/home/Cube/Cube_1.png",
+                  "action": "action://education/list"
+                },
+                {
+                  "cover": "/home/Cube/Cube_2.png",
+                  "action": "action://card/detail"
+                },
+                {
+                  "cover": "/home/Cube/Cube_3.png",
+                  "action": "action://market/list"
+                }
+              ]
+            }
+          },
+          {
+            "name": "ActivityNotifcation",
+            "config": {
+              "icon": "/home/ActivityNotifcation/ActivityNotifcation_def.png"
+            }
+          },
+          {
+            "name": "Service",
+            "config": {
+              "titles": [
+                {
+                  "mode": "text",
+                  "text": "投资服务",
+                  "cover": "",
+                  "id": "INVEST_SERVICE",
+                  "fontColor": "",
+                  "fontSize": "",
+                  "fontWeight": ""
+                },
+                {
+                  "mode": "text",
+                  "text": "保险服务",
+                  "cover": "",
+                  "id": "INS_SERVICE",
+                  "fontColor": "",
+                  "fontSize": "",
+                  "fontWeight": ""
+                },
+                {
+                  "mode": "text",
+                  "text": "事务服务",
+                  "cover": "",
+                  "id": "TRANSACTION_SERVICE",
+                  "fontColor": "",
+                  "fontSize": "",
+                  "fontWeight": ""
+                }
+              ]
+            }
+          },
+          {
+            "name": "Activity",
+            "config": {
+              "title": {
+                "mode": "text",
+                "text": "推荐活动",
+                "cover": "",
+                "id": "",
+                "fontColor": "",
+                "fontSize": "",
+                "fontWeight": ""
+              },
+              "count": 3
+            }
+          },
+          {
+            "name": "ADShow",
+            "config": {
+              "action": "",
+              "cover": "/home/ADShow/ADShow_1.png"
+            }
+          },
+          {
+            "name": "Feed",
+            "config": {
+              "title": {
+                "mode": "mixin",
+                "text": "今日朋友圈",
+                "cover": "/home/Feed_cover.png",
+                "id": "",
+                "fontColor": "#f00",
+                "fontSize": 20,
+                "fontWeight": "500"
+              },
+              "shareTitle": "一键获客"
+            }
+          }
+        ]
+      },
+      "studio": {
+        "components": [
+          {
+            "name": "Profile",
+            "config": {}
+          },
+          {
+            "name": "Grid",
+            "config": {
+              "title": {
+                "mode": "text",
+                "text": "",
+                "cover": "",
+                "id": "",
+                "fontColor": "",
+                "fontSize": "",
+                "fontWeight": ""
+              },
+              "template": "template1",
+              "apps": [
+                {
+                  "title": "服务",
+                  "icon": "/studio/Grid/Grid_service.png",
+                  "action": "action://service/tab"
+                },
+                {
+                  "title": "客户",
+                  "icon": "/studio/Grid/Grid_investor.png",
+                  "action": "action://investor/tab"
+                },
+                {
+                  "title": "预约处理",
+                  "icon": "/studio/Grid/Grid_appoint.png",
+                  "action": "action://appoint/list"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Notification",
+            "config": {
+              "count": 3,
+              "title": {
+                "mode": "text",
+                "text": "最新通知",
+                "cover": "",
+                "id": "",
+                "fontColor": "",
+                "fontSize": "",
+                "fontWeight": ""
+              }
+            }
+          },
+          {
+            "name": "FeeOverview",
+            "config": {
+              "title": {
+                "mode": "text",
+                "text": "咨询服务费",
+                "cover": "",
+                "id": "",
+                "fontColor": "",
+                "fontSize": "",
+                "fontWeight": ""
+              }
+            }
+          },
+          {
+            "name": "SopOverview",
+            "config": {
+              "title": {
+                "mode": "text",
+                "text": "业绩",
+                "cover": "",
+                "id": "",
+                "fontColor": "",
+                "fontSize": "",
+                "fontWeight": ""
+              }
+            }
+          },
+          {
+            "name": "Group",
+            "config": {
+              "cover": "/studio/Group/Group_cover.png",
+              "action": "action://team/tab"
+            }
+          },
+          {
+            "name": "Grid",
+            "config": {
+              "title": {
+                "mode": "text",
+                "text": "工作台",
+                "cover": "",
+                "id": "",
+                "fontColor": "",
+                "fontSize": "",
+                "fontWeight": ""
+              },
+              "template": "template2",
+              "apps": [
+                {
+                  "title": "工作日历",
+                  "icon": "/studio/Grid/Grid_calendar.png",
+                  "action": "action://calendar/tab"
+                },
+                {
+                  "title": "签约记录",
+                  "icon": "/studio/Grid/Grid_reservation.png",
+                  "action": "action://reservation/tab"
+                },
+                {
+                  "title": "保单查询",
+                  "icon": "/studio/Grid/Grid_insurance.png",
+                  "action": "action://insurance/list"
+                },
+                {
+                  "title": "信息披露",
+                  "icon": "/studio/Grid/Grid_disclosure.png",
+                  "action": "action://disclosure/list"
+                },
+                {
+                  "title": "咨询服务费",
+                  "icon": "/studio/Grid/Grid_fee.png",
+                  "action": "action://consult/fee/tab"
+                },
+                {
+                  "title": "资产配置",
+                  "icon": "/studio/Grid/Grid_strategy.png",
+                  "action": "action://strategy/list"
+                },
+                {
+                  "title": "沟通记录",
+                  "icon": "/studio/Grid/Grid_tracking.png",
+                  "action": "action://tracking/list"
+                },
+                {
+                  "title": "会话消息",
+                  "icon": "/studio/Grid/Grid_conversation.png",
+                  "action": "action://conversation/list"
+                },
+                {
+                  "title": "合作邀请",
+                  "icon": "/studio/Grid/Grid_invitations.png",
+                  "action": "action://invitations/tab"
+                },
+                {
+                  "title": "服务支持",
+                  "icon": "/studio/Grid/Grid_cs.png",
+                  "action": "action://cs/tab"
+                }
+              ]
+            }
+          },
+          {
+            "name": "ADShow",
+            "config": {
+              "action": "action://smallgift/detail",
+              "cover": "/studio/ADShow/ADShow_x.png"
+            }
+          }
+        ]
+      },
+      "apps": {
+        "components": [
+          {
+            "name": "Grid",
+            "config": {
+              "template": "template2",
+              "title": {
+                "mode": "text",
+                "text": "营销获客"
+              },
+              "apps": [
+                {
+                  "title": "智能名片",
+                  "icon": "/apps/Grid/apps_card.png",
+                  "action": "action://card/detail"
+                },
+                {
+                  "title": "精品海报",
+                  "icon": "/apps/Grid/apps_poster.png",
+                  "action": "action://poster/list"
+                },
+                {
+                  "title": "转发助手",
+                  "icon": "/apps/Grid/apps_transmit.png",
+                  "action": "action://transmit/detail"
+                },
+                {
+                  "title": "财经早报",
+                  "icon": "/apps/Grid/apps_headline.png",
+                  "action": "action://headline/detail"
+                },
+                {
+                  "title": "财商Club",
+                  "icon": "/apps/Grid/apps_education.png",
+                  "action": "action://education/list"
+                },
+                {
+                  "title": "保险助手",
+                  "icon": "/apps/Grid/apps_helper.png",
+                  "action": "action://insurance/helper/list"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Grid",
+            "config": {
+              "template": "template2",
+              "title": {
+                "mode": "text",
+                "text": "营销统计"
+              },
+              "apps": [
+                {
+                  "title": "营销线索",
+                  "icon": "/apps/Grid/apps_market.png",
+                  "action": "action://market/list"
+                },
+                {
+                  "title": "访客记录",
+                  "icon": "/apps/Grid/apps_alert.png",
+                  "action": "action://market/alert/list"
+                },
+                {
+                  "title": "营销分析",
+                  "icon": "/apps/Grid/apps_bi.png",
+                  "action": "action://market/bi/tab"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Grid",
+            "config": {
+              "template": "template2",
+              "title": {
+                "mode": "text",
+                "text": "内容与服务"
+              },
+              "apps": [
+
+                {
+                  "title": "财经资讯",
+                  "icon": "/apps/Grid/apps_content.png",
+                  "action": "action://content/list"
+                },
+                {
+                  "title": "活动",
+                  "icon": "/apps/Grid/apps_activity.png",
+                  "action": "action://activity/list"
+                },
+                {
+                  "title": "直播",
+                  "icon": "/apps/Grid/apps_liveshow.png",
+                  "action": "action://liveshow/list"
+                },
+                {
+                  "title": "随手礼",
+                  "icon": "/apps/Grid/apps_smallgift.png",
+                  "action": "action://smallgift/detail"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Grid",
+            "config": {
+              "template": "template2",
+              "title": {
+                "mode": "text",
+                "text": "工作台"
+              },
+              "apps": [
+                {
+                  "title": "咨询服务费",
+                  "icon": "/apps/Grid/apps_fee.png",
+                  "action": "action://consult/fee/tab"
+                },
+                {
+                  "title": "业绩",
+                  "icon": "/apps/Grid/apps_performance.png",
+                  "action": "action://performance/tab"
+                },
+                {
+                  "title": "我的团队",
+                  "icon": "/apps/Grid/apps_team.png",
+                  "action": "action://team/tab"
+                },
+                {
+                  "title": "预约处理",
+                  "icon": "/apps/Grid/apps_appoint.png",
+                  "action": "action://appoint/list"
+                },
+                {
+                  "title": "签约记录",
+                  "icon": "/apps/Grid/apps_reservation.png",
+                  "action": "action://reservation/tab"
+                },
+                {
+                  "title": "保单查询",
+                  "icon": "/apps/Grid/apps_insurance.png",
+                  "action": "action://insurance/list"
+                },
+                {
+                  "title": "资产配置",
+                  "icon": "/apps/Grid/apps_strategy.png",
+                  "action": "action://strategy/list"
+                },
+                {
+                  "title": "沟通记录",
+                  "icon": "/apps/Grid/apps_tracking.png",
+                  "action": "action://tracking/list"
+                },
+                {
+                  "title": "合作邀请",
+                  "icon": "/apps/Grid/apps_invitations.png",
+                  "action": "action://invitations/tab"
+                },
+                {
+                  "title": "信息披露",
+                  "icon": "/apps/Grid/apps_disclosure.png",
+                  "action": "action://disclosure/list"
+                },
+                {
+                  "title": "服务支持",
+                  "icon": "/apps/Grid/apps_cs.png",
+                  "action": "action://cs/tab"
+                },
+                {
+                  "title": "个人中心",
+                  "icon": "/apps/Grid/apps_profile.png",
+                  "action": "action://profile/tab"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Grid",
+            "config": {
+              "template": "template2",
+              "title": {
+                "mode": "text",
+                "text": "消息"
+              },
+              "apps": [
+                {
+                  "title": "工作日历",
+                  "icon": "/apps/Grid/apps_calendar.png",
+                  "action": "action://calendar/tab"
+                },
+                {
+                  "title": "会话消息",
+                  "icon": "/apps/Grid/apps_conversation.png",
+                  "action": "action://conversation/list"
+                },
+                {
+                  "title": "消息通知",
+                  "icon": "/apps/Grid/apps_message.png",
+                  "action": "action://message/list"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }

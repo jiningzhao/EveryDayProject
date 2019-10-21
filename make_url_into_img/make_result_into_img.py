@@ -1,3 +1,8 @@
+'''
+开发者：赵吉宁
+脚本功能：将json文件中的icon、图片地址拼接下载到本地文件夹
+时间：2019-10-18
+'''
 import json_processing
 import urllib
 from urllib import request
@@ -14,7 +19,7 @@ class Make_img():
         self.icon = json_processing.icon
         self.cover = json_processing.cover
 
-    def cover_img(self,img_url, file_name, file_path='/Users/tq/Desktop/BYSJ/cover_img/'):  # 将图片拼接下载后，加上名称title存储到文件夹中（2）
+    def cover_img(self,img_url, file_name, file_path='/Users/tq/Desktop/BYSJ_Git/cover_img/'):  # 将图片拼接下载后，加上名称title存储到文件夹中（2）
         # 保存图片到磁盘文件夹 file_path中，默认为当前脚本运行目录下的 book\img文件夹
         try:
             if not os.path.exists(file_path):
@@ -32,7 +37,7 @@ class Make_img():
         except Exception as e:
             print('错误 ：', e)
 
-    def icon_img(self,img_url, file_name, file_path='/Users/tq/Desktop/BYSJ/icon_img/'):  # 将图片拼接下载后，加上名称title存储到文件夹中（3）
+    def icon_img(self,img_url, file_name, file_path='/Users/tq/Desktop/BYSJ_Git/icon_img/'):  # 将图片拼接下载后，加上名称title存储到文件夹中（3）
         # 保存图片到磁盘文件夹 file_path中，默认为当前脚本运行目录下的 book\img文件夹
         try:
             if not os.path.exists(file_path):
